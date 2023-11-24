@@ -1,0 +1,11 @@
+auxproj.sh
+Auxproject.md
+file1.txt
+file2.txt
+file3.txt
+images
+index.txt
+navigating-linux-filesystem.sh
+README.md
+sorted_files.txt
+sorting.sh
