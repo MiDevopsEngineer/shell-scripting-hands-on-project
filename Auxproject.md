@@ -1,6 +1,6 @@
 # Auxillary Project: Shell Scripting
 
-### Shell script helps you atomate repetitive tasks. Bas scripts are essentially a series of commands and instructions that are executed sequentially in a shell. This script is created by saving a collection of commands in a text file with a   .sh extension.
+### Shell script helps you atomate repetitive tasks. Bash scripts are essentially a series of commands and instructions that are executed sequentially in a shell. This script is created by saving a collection of commands in a text file with a   .sh extension.
 
 1. VARIABLE
 #name="Millicent"
@@ -28,6 +28,7 @@ elif [ $num -lt 0 ]; then
 else
     echo "The number is zero."
 fi`
+
 ![CONTROL FLOW](./images/6.PNG)
 
 b. Iterating through a list using a for loop
@@ -40,6 +41,7 @@ for (( i=1; i<=5; i++ ))
 do
     echo $i
 done
+
 ![CONTROL FLOWb](./images/7.PNG)
 
 
@@ -48,10 +50,12 @@ done
 a. Input
 echo "Enter your name:"
 read name
+
 ![CONTROL FLOW4](./images/10.PNG)
 
 b. Out a result of a command into a file
 `echo "hello world" > index.txt`
+
 ![CONTROL FLOW4](./images/8a.PNG)
 ![CONTROL FLOW4](./images/8b.PNG)
 
@@ -65,6 +69,7 @@ greet() {
 
 #Call the greet function and pass the name as an argument
 greet "John"
+
 ![CONTROL FLOW4](./images/9.PNG)
 
 ## Writing my proper shell script
@@ -73,13 +78,17 @@ I created a folder on my repository to save all the scripts
 1. COMMAND
 
 I created a file called user-input.sh using `touch user-input.sh` , change the ppermission of the file to be executable using `chmod +x user-input.sh` , run the command using `./user-input.sh`
+
 ![CONTROL FLOW4](./images/9.PNG)
 
 2. DIRECTORY MANIPULATION AND NAVIGATION
 
 I created a file called user-input.sh using `touch navigating-linux-filesyatem.sh` and pasted the script on inside the file.
+
 ![CONTROL FLOW4](./images/11a.PNG)
+
 Change the file permission using `chmod +x navigating-linux-filesystem.sh` and run the script using `./navigating-linux-filesystem.sh`
+
 ![CONTROL FLOW4](./images/11b.PNG)
 
 3. FILE OPERATIONS AND SORTING
